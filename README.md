@@ -1,10 +1,30 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/234526c3-e1a1-406e-9015-d14690b87289/deploy-status)](https://app.netlify.com/sites/tryingtowork/deploys)
+# Camellando
 
-Trying to work
-=============================
+Directorio de talento, oficios y servicios.
 
-![Trying to Work](https://raw.githubusercontent.com/mckeever02/tryingtowork/master/static/images/og-image-2.png)
+## Stack
 
-A collection of spaces to work online in Belfast, Dublin and London. With more cities to follow.
+- Gatsby 5
+- React 18
+- Emotion 11
+- Netlify adapter
+- Node 22
 
-Any ideas to make it better or bugs to report? [Tweet me](https://twitter.com/mmckvr) or [email me](mailto:michael@mckvr.com).
+## Rutas
+
+- `/` Directorio
+- `/publicar` Publicar perfil
+- `/admin` Moderación
+
+## Desarrollo
+
+```bash
+npm install
+npm run develop
+```
+
+## Producción
+
+```bash
+npm run build
+```

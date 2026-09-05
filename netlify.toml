@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22.14.0"
+  NPM_FLAGS = "--include=optional"
+
+[context.production.environment]
+  NODE_ENV = "production"
